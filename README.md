@@ -15,7 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
-![](https://raw.githubusercontent.com/badb0ttle/badb0ttle/main/assets/github-contribution-grid-snake.svg)
+<picture>
+<img alt="github-snake"
+    src="https://raw.githubusercontent.com/HaynesChennn/HaynesChennn/output/github-contribution-grid-snake.svg" />
+</picture>
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-215%20hrs%2049%20mins-blue)
