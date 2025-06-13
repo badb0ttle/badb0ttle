@@ -14,6 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-215%20hrs%2049%20mins-blue)
 
@@ -89,3 +90,4 @@ Ruby                     1 repo              ████████░░░�
 
  Last Updated on 13/06/2025 05:15:46 UTC
 <!--END_SECTION:waka-->
+
