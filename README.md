@@ -15,14 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
-<picture>
-<source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/badb0ttle/badb0ttle/main/profile-3d-contrib/profile-night-rainbow.svg" />
-<source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/badb0ttle/badb0ttle/main/profile-3d-contrib/profile-gitblock.svg" />
-<img alt="github-3d"
-    src="https://raw.githubusercontent.com/badb0ttle/badb0ttle/profile-3d-contrib/profile-gitblock.svg" />
-</picture>
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-215%20hrs%2049%20mins-blue)
 
