@@ -21,13 +21,13 @@ Here are some ideas to get you started:
 </picture>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-390%20hrs%201%20min-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-390%20hrs%2037%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 419.8 kB Used in GitHub's Storage 
+> 📦 419.9 kB Used in GitHub's Storage 
  > 
 > 🏆 213 Contributions in the Year 2025
  > 
@@ -64,16 +64,22 @@ Sunday                   16 commits          █░░░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+HTML                     17 mins             ████████████░░░░░░░░░░░░░   47.57 % 
+JavaScript               14 mins             ██████████░░░░░░░░░░░░░░░   41.01 % 
+SQL                      1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 % 
+Java                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.57 % 
+JSON                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.18 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Trae                     36 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+Frontend                 17 mins             ████████████░░░░░░░░░░░░░   48.70 % 
+oj-online                15 mins             ███████████░░░░░░░░░░░░░░   43.62 % 
+OJDemo1                  2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      36 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in HTML** 
@@ -88,6 +94,6 @@ JavaScript               1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 14/12/2025 18:48:51 UTC
+ Last Updated on 15/12/2025 18:55:17 UTC
 <!--END_SECTION:waka-->
 
