@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=badb0ttle&show_icons=true&theme=transparent&hide_title=true&hide_rank=true&cache_seconds=86400)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=badb0ttle&show_icons=true&theme=github_dark)
 ![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
 <picture>
   <img
