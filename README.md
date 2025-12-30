@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+![trophy](https://github-profile-trophy.vercel.app/?username=badb0ttle)
 ![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
 <picture>
   <img
