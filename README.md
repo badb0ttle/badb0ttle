@@ -17,8 +17,10 @@ Here are some ideas to get you started:
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=badb0ttle&show_icons=true&theme=transparent&hide_title=true&hide_rank=true&cache_seconds=86400)
 ![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
 <picture>
-<img alt="github-snake"
-   src="https://raw.githubusercontent.com/badb0ttle/badb0ttle/output/github-contribution-grid-snake.svg" />
+  <img
+    alt="github contribution grid snake"
+    src="https://raw.githubusercontent.com/badb0ttle/badb0ttle/output/github-contribution-grid-snake.svg"
+  />
 </picture>
 
 <!--START_SECTION:waka-->
