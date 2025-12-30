@@ -14,17 +14,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=badb0ttle&show_icons=true&theme=transparent&hide_title=true&hide_rank=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=badb0ttle&show_icons=true&theme=transparent&hide_title=true&hide_rank=true&cache_seconds=86400)
 ![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
 <picture>
 <img alt="github-snake"
-    src="https://raw.githubusercontent.com/HaynesChennn/HaynesChennn/output/github-contribution-grid-snake.svg" />
+   src="https://raw.githubusercontent.com/badb0ttle/badb0ttle/output/github-contribution-grid-snake.svg" />
 </picture>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-406%20hrs%2038%20mins-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Code Time](https://img.shields.io/badge/Code%20Time-406%20hrs%2038%20mins-blue)
+![Profile Views](https://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
