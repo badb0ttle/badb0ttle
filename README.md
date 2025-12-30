@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=badb0ttle)](https://github.com/badb0ttle/github-readme-stats)
+
 ![Personal 3D Metrics](./profile-3d-contrib/profile-night-green.svg)
 <picture>
   <img
@@ -22,7 +22,7 @@ Here are some ideas to get you started:
     src="https://raw.githubusercontent.com/badb0ttle/badb0ttle/output/github-contribution-grid-snake.svg"
   />
 </picture>
-
+[![badb0ttle's GitHub stats](https://github-readme-stats.vercel.app/api?username=badb0ttle)](https://github.com/badb0ttle/github-readme-stats)
 <!--START_SECTION:waka-->
 ![Code Time](https://img.shields.io/badge/Code%20Time-406%20hrs%2038%20mins-blue)
 ![Profile Views](https://img.shields.io/badge/Profile%20Views-1-blue)
