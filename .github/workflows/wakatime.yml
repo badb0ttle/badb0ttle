@@ -16,8 +16,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           LOCALE: zh
           SHOW_LINES_OF_CODE: "true"
-          SHOW_LOC_CHART: "false"
-          SHOW_SHORT_INFO: "false"
+          SHOW_LOC_CHART: "true"
+          SHOW_SHORT_INFO: "true"
           SHOW_OS: "true"
           SHOW_PROJECTS: "true"
           SHOW_TOTAL_CODE_TIME: "true"
