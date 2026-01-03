@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 ![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=badb0ttle&show_icons=true&theme=github_dark)
 <!--START_SECTION:waka-->
 
-```c++
+```txt
 From: 16 February 2025 - To: 02 January 2026
 
 Total Time: 416 hrs 39 mins
