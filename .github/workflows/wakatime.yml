@@ -4,7 +4,6 @@ on:
   # for manual workflow trigger
   workflow_dispatch:
   schedule:
-    # runs at 12 AM UTC (5:30 AM IST)
     - cron: "0 16 * * *"
 
 jobs:
@@ -15,7 +14,7 @@ jobs:
         # this action name
       - uses: athul/waka-readme@master # do NOT replace with anything else
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # optional if on profile readme
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # optional if on profile readme
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
           ### meta
           API_BASE_URL: https://wakatime.com/api # optional
@@ -24,7 +23,6 @@ jobs:
           SHOW_TITLE: true # optional
           SECTION_NAME: waka # optional
           BLOCKS: -> # optional
-          CODE_LANG: c++ # optional
           TIME_RANGE: all_time # optional
           LANG_COUNT: 10 # optional
           SHOW_TIME: true # optional
