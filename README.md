@@ -25,18 +25,18 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 
 ```txt
-From: 16 February 2025 - To: 13 February 2026
+From: 16 February 2025 - To: 14 February 2026
 
-Total Time: 460 hrs 25 mins
+Total Time: 460 hrs 32 mins
 
-C++                                267 hrs 56 mins >>>>>>>>>>>>>>>----------   58.01 %
-Markdown                           47 hrs 20 mins  >>>----------------------   10.25 %
+C++                                267 hrs 56 mins >>>>>>>>>>>>>>-----------   57.99 %
+Markdown                           47 hrs 21 mins  >>>----------------------   10.25 %
 Java                               39 hrs 41 mins  >>-----------------------   08.59 %
 JavaScript                         25 hrs 46 mins  >------------------------   05.58 %
-SQL                                13 hrs 37 mins  >------------------------   02.95 %
+SQL                                13 hrs 41 mins  >------------------------   02.96 %
 Vue.js                             13 hrs 14 mins  >------------------------   02.87 %
 Python                             10 hrs 38 mins  >------------------------   02.30 %
-XML                                6 hrs 58 mins   -------------------------   01.51 %
+XML                                7 hrs           -------------------------   01.52 %
 TypeScript                         6 hrs 40 mins   -------------------------   01.45 %
 ```
 
