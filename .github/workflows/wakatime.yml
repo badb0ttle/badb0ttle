@@ -18,6 +18,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SECTION_NAME: waka_7d
           TIME_RANGE: last_7_days
+          TARGET_BRANCH: main # 确保指定为 main
           LANG_COUNT: 5
           SHOW_TIME: true
           SHOW_TOTAL: true
@@ -33,6 +34,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SECTION_NAME: waka_30d
           TIME_RANGE: last_30_days
+          TARGET_BRANCH: main # 确保指定为 main
           LANG_COUNT: 5
           SHOW_TIME: true
           SHOW_TOTAL: true
@@ -48,6 +50,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SECTION_NAME: waka_1y
           TIME_RANGE: last_year
+          TARGET_BRANCH: main # 确保指定为 main
           LANG_COUNT: 6
           SHOW_TIME: true
           SHOW_TOTAL: true
@@ -63,7 +66,8 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SECTION_NAME: waka_all
           TIME_RANGE: all_time
-          LANG_COUNT: 8 # 总计数据可以稍微多展示几个语言
+          TARGET_BRANCH: main # 确保指定为 main
+          LANG_COUNT: 8 
           SHOW_TIME: true
           SHOW_TOTAL: true
           STOP_AT_OTHER: true
