@@ -1,75 +1,29 @@
 name: Waka Readme
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 16 * * *"
-
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      # 1. 更新 7 天数据
-      - name: Update 7 Days Stats
-        uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka_7d
-          TIME_RANGE: last_7_days
-          TARGET_BRANCH: main # 确保指定为 main
-          LANG_COUNT: 5
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML JSON TOML Markdown Text
-          COMMIT_MESSAGE: "chore: update waka-readme 7d stats [skip ci]"
-
-      # 2. 更新 30 天数据
-      - name: Update 30 Days Stats
-        uses: athul/waka-readme@master
-        with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka_30d
-          TIME_RANGE: last_30_days
-          TARGET_BRANCH: main # 确保指定为 main
-          LANG_COUNT: 5
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML JSON TOML Markdown Text
-          COMMIT_MESSAGE: "chore: update waka-readme 30d stats [skip ci]"
-
-      # 3. 更新 1 年数据
-      - name: Update 1 Year Stats
-        uses: athul/waka-readme@master
-        with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka_1y
-          TIME_RANGE: last_year
-          TARGET_BRANCH: main # 确保指定为 main
-          LANG_COUNT: 6
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML JSON TOML Markdown Text
-          COMMIT_MESSAGE: "chore: update waka-readme 1y stats [skip ci]"
-
-      # 4. 更新全部总计数据
-      - name: Update All Time Stats
-        uses: athul/waka-readme@master
-        with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SECTION_NAME: waka_all
-          TIME_RANGE: all_time
-          TARGET_BRANCH: main # 确保指定为 main
-          LANG_COUNT: 8 
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML JSON TOML Markdown Text
-          COMMIT_MESSAGE: "chore: update waka-readme all time stats [skip ci]"
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          LOCALE: zh
+          SHOW_LINES_OF_CODE: "True" # 显示截至日期写入的代码行数
+          SHOW_LOC_CHART: "False" # 年份不同季度编写的代码行数
+          SHOW_SHORT_INFO: "False" # 用户的简短趣闻信息
+          SHOW_OS: "True" # 显示系统
+          SHOW_PROJECTS: "True" # 显示项目
+          SHOW_TOTAL_CODE_TIME: "True" # 显示总编码时间
+          SHOW_COMMIT: "True" # 显示提交信息
+          SHOW_PROFILE_VIEWS: "True" # 设置为隐藏配置文件视图
+          SHOW_DAYS_OF_WEEK: "True"  # 一周中不同日期进行的提交
+          SHOW_LANGUAGE: "True" # 编码语言
+          SHOW_EDITORS: "True" # 编辑器
+          SHOW_LANGUAGE_PER_REPO: "True" #  
+          SYMBOL_VERSION: "2" # 设置为进度条的符
