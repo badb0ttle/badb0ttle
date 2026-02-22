@@ -1,9 +1,9 @@
 name: Waka Readme
 
 on:
-  # for manual workflow trigger
-  workflow_dispatch:
+  workflow_dispatch: # 允许你随时手动点击运行
   schedule:
+    # 每天 UTC 时间 16:00 (北京/台北时间凌晨 0:00 左右) 自动更新
     - cron: "0 16 * * *"
 
 jobs:
@@ -11,31 +11,26 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-        # this action name
-      - uses: athul/waka-readme@master # do NOT replace with anything else
+      - uses: athul/waka-readme@master
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # optional if on profile readme
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
-          ### meta
-          API_BASE_URL: https://wakatime.com/api # optional
-          REPOSITORY: badb0ttle/badb0ttle # optional
-          ### content
-          SHOW_TITLE: true # optional
-          SECTION_NAME: waka # optional
-          BLOCKS: -> # optional
-          TIME_RANGE: all_time # optional
-          LANG_COUNT: 10 # optional
-          SHOW_TIME: true # optional
-          SHOW_TOTAL: true # optional
-          SHOW_MASKED_TIME: false # optional
-          STOP_AT_OTHER: true # optional
-          IGNORED_LANGUAGES: YAML JSON TOML # optional
-          ### commit
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics # optional
-          TARGET_BRANCH: master # optional
-          TARGET_PATH: README.md # optional
-          COMMITTER_NAME: GitHubActionBot # optional
-          COMMITTER_EMAIL: action-bot@github.com # optional
-          AUTHOR_NAME: badb0ttle # optional
-          AUTHOR_EMAIL: gebaodi@gmail.com # optional
-          # you can populate email-id with secrets instead
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          
+          ### 核心展示设置 (Content & Styling)
+          SHOW_TITLE: true 
+          SECTION_NAME: waka 
+          TIME_RANGE: last_7_days # 核心修改：聚焦最近 7 天的战况
+          LANG_COUNT: 6 # 视觉优化：只展示 Top 6 语言，保持版面清爽
+          SHOW_TIME: true 
+          SHOW_TOTAL: true 
+          STOP_AT_OTHER: true # 隐藏杂项尾巴
+          IGNORED_LANGUAGES: YAML JSON TOML Markdown Text # 过滤纯文本，硬核展示
+          
+          ### 提交设置 (Commit Info)
+          COMMIT_MESSAGE: "chore: update waka-readme stats [skip ci]" # 优化提交信息
+          TARGET_BRANCH: master # 注意：如果你的主分支叫 main，请把这里改成 main
+          TARGET_PATH: README.md 
+          COMMITTER_NAME: GitHubActionBot 
+          COMMITTER_EMAIL: action-bot@github.com 
+          AUTHOR_NAME: badb0ttle 
+          AUTHOR_EMAIL: gebaodi@gmail.com
