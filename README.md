@@ -25,11 +25,13 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 25 hrs 8 mins
+Total Time: 459 hrs 18 mins
 
-Java                       5 hrs 57 mins         ██████░░░░░░░░░░░░░░░░░░░   23.62 %
-Vue.js                     4 hrs 10 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.56 %
-HTML                       1 hr 30 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.97 %
+C++                                269 hrs 14 mins       ██████████████▓░░░░░░░░░░   58.43 %
+Java                               41 hrs 52 mins        ██▒░░░░░░░░░░░░░░░░░░░░░░   09.09 %
+JavaScript                         25 hrs 46 mins        █▒░░░░░░░░░░░░░░░░░░░░░░░   05.59 %
+Vue.js                             14 hrs 7 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.06 %
+SQL                                14 hrs 4 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.05 %
 ```
 
 <!--END_SECTION:waka-->
