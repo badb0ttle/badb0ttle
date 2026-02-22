@@ -25,13 +25,11 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 7 hrs 7 mins
+Total Time: 25 hrs 8 mins
 
-Java         2 hrs 15 mins         ████████░░░░░░░░░░░░░░░░░   31.60 %
-XML          53 mins               ███░░░░░░░░░░░░░░░░░░░░░░   12.57 %
-Vue.js       52 mins               ███░░░░░░░░░░░░░░░░░░░░░░   12.18 %
-C++          45 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.61 %
-Git          25 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.94 %
+Java                       5 hrs 57 mins         ██████░░░░░░░░░░░░░░░░░░░   23.62 %
+Vue.js                     4 hrs 10 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.56 %
+HTML                       1 hr 30 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.97 %
 ```
 
 <!--END_SECTION:waka-->
